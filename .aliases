@@ -1,0 +1,7 @@
+alias be="bundle exec"
+alias bec="be cucumber"
+alias reload="source ~/.bashrc"
+alias push="git push"
+alias pull="git pull"
+alias gsd="git svn dcommit"
+alias r="rails"
