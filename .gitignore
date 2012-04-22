@@ -44,3 +44,8 @@ db/*.sqlite3
 log/*.log
 tmp
 vendor/cache/*
+capybara-*.html
+.Xauthority
+.dvdcss/CACHEDIR.TAG
+.pow
+pow/
