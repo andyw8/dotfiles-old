@@ -49,3 +49,16 @@ capybara-*.html
 .dvdcss/CACHEDIR.TAG
 .pow
 pow/
+SCRATCH
+BACKLOG
+*.sublime-project
+*.sublime-workspace
+node_modules
+Google Drive
+.pry_history
+.psql_history
+.cocoapods
+.CF*
+.rdebug_hist
+.rnd
+.swfinfo
