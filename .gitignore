@@ -28,7 +28,6 @@
 /.wireshark
 /.wireshark-etc
 /.xbmc
-/bin
 /Desktop
 /Documents
 /Downloads
@@ -37,7 +36,6 @@
 /Movies
 /Music
 /Pictures
-/Public
 /Sites
 /VirtualBox VMs
 db/*.sqlite3
@@ -62,3 +60,4 @@ Google Drive
 .rdebug_hist
 .rnd
 .swfinfo
+coverage
