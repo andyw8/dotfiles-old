@@ -9,11 +9,10 @@ export https_proxy=`proxy-config -s`
 export ftp_proxy=`proxy-config -f`
 
 export NODE_PATH="/usr/local/lib/node:/usr/local/lib/node_modules"
-export EDITOR='mate'
+export EDITOR='subl -w'
 
 source ~/.aliases
 source ~/.private_aliases
-source ~/.bbc
 
 export RA_MANUAL=1
 #export HTTPS=1
@@ -34,3 +33,12 @@ PS1="\h:\W\$(parse_git_branch) \u\$ "
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 PATH=$PATH:$HOME/bin # Add RVM to PATH for scripting
+
+# git aliases from http://gitimmersion.com/lab_11.html
+alias gs='git status '
+alias ga='git add '
+alias gb='git branch '
+alias gc='git commit'
+alias gd='git diff'
+alias go='git checkout '
+alias gx='gitx --all'
