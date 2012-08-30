@@ -6,6 +6,9 @@ alias push="git push"
 alias pull="git pull"
 alias gsd="git svn dcommit"
 alias r="rails"
-alias slt='open -a "Sublime Text 2"'
 alias mate="slt"
 alias g="git"
+alias c="cucumber"
+alias htop="sudo htop"
+alias top="htop"
+
