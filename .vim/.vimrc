@@ -50,3 +50,6 @@ set tags=./tags;
 " use ack instead of grep
 set grepprg=ack
 
+" easy bindings for navigating next/previous grep/ack results
+map <C-n> :cn<CR>
+map <C-p> :cp<CR>
