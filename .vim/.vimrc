@@ -46,3 +46,7 @@ nnoremap <C-H> <C-W><C-H>
 
 " set the tag file search order
 set tags=./tags;
+
+" use ack instead of grep
+set grepprg=ack
+
