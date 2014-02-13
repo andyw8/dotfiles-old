@@ -57,3 +57,9 @@ set grepprg=ack
 " easy bindings for navigating next/previous grep/ack results
 map <C-n> :cn<CR>
 map <C-p> :cp<CR>
+
+" vim-rspec mappings
+nnoremap <Leader>t :call RunCurrentSpecFile()<CR>
+nnoremap <Leader>s :call RunNearestSpec()<CR>
+nnoremap <Leader>l :call RunLastSpec()<CR>
+
