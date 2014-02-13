@@ -68,3 +68,4 @@ set relativenumber
 autocmd InsertEnter * :set number
 autocmd InsertLeave * :set relativenumber
 
+map ,p orequire 'pry'; binding.pry<ESC>
