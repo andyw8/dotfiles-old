@@ -18,6 +18,10 @@ set incsearch                   " incremental searching
 set ignorecase                  " searches are case insensitive...
 set smartcase                   " ... unless they contain at least one capital letter
 
+"" for plain text editing
+set wrap
+set linebreak
+
 " disable arrow keys in normal and insert modes
 nnoremap <up> <nop>
 nnoremap <down> <nop>
