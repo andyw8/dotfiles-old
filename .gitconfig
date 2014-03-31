@@ -41,6 +41,7 @@
     dh1 = diff HEAD~1
     type = cat-file -t
     dump = cat-file -p
+    pushall = push --recurse-submodules=on-demand
 [merge]
     tool = mate
 [push]
