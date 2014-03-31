@@ -67,6 +67,9 @@ nnoremap <Leader>l :call RunLastSpec()<CR>
 map <C-s> <esc>:w<CR>
 imap <C-s> <esc>:w<CR>
 map <C-h> :nohl<cr>
+
+" reload config
+map <Leader>so :so %<cr>
 " http://jeffkreeftmeijer.com/2012/relative-line-numbers-in-vim-for-super-fast-movement/
 set relativenumber
 autocmd InsertEnter * :set number
