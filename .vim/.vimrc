@@ -77,5 +77,8 @@ autocmd InsertLeave * :set relativenumber
 
 map ,p orequire 'pry'; binding.pry<ESC>
 
+" http://danielmiessler.com/ use jk to exit insert mode, instead of ESC
+inoremap jk <ESC>
+
 " strip whitespace on save
 autocmd BufWritePre * :%s/\s\+$//e
