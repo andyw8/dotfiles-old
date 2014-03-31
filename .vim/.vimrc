@@ -84,5 +84,8 @@ inoremap jk <ESC>
 " http://stackoverflow.com/a/15317146/119822
 set directory=/tmp//" Don't clutter my dirs up with swp and tmp files
 
+" Using , as leader, but it's still useful to have a mapping for find char previous
+noremap \ ,
+
 " strip whitespace on save
 autocmd BufWritePre * :%s/\s\+$//e
