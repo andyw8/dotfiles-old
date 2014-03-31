@@ -63,6 +63,10 @@ nnoremap <Leader>t :call RunCurrentSpecFile()<CR>
 nnoremap <Leader>s :call RunNearestSpec()<CR>
 nnoremap <Leader>l :call RunLastSpec()<CR>
 
+" map Control-S to Save (from r00k)
+map <C-s> <esc>:w<CR>
+imap <C-s> <esc>:w<CR>
+map <C-h> :nohl<cr>
 " http://jeffkreeftmeijer.com/2012/relative-line-numbers-in-vim-for-super-fast-movement/
 set relativenumber
 autocmd InsertEnter * :set number
