@@ -80,5 +80,9 @@ map ,p orequire 'pry'; binding.pry<ESC>
 " http://danielmiessler.com/ use jk to exit insert mode, instead of ESC
 inoremap jk <ESC>
 
+" https://github.com/r00k/dotfiles/blob/master/vimrc
+" http://stackoverflow.com/a/15317146/119822
+set directory=/tmp//" Don't clutter my dirs up with swp and tmp files
+
 " strip whitespace on save
 autocmd BufWritePre * :%s/\s\+$//e
