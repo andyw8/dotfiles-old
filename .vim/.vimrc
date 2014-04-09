@@ -89,3 +89,8 @@ noremap \ ,
 
 " strip whitespace on save
 autocmd BufWritePre * :%s/\s\+$//e
+
+" enable matchit plugin (included with vim)
+" see 'Navigating Ruby Files with Vim' from ThoughtBot Learn
+runtime macros/matchit.vim
+
