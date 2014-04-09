@@ -41,3 +41,6 @@ alias gl='git log --oneline --graph --all --decorate'
 
 alias h='heroku'
 alias binpath="echo 'export PATH=$PWD/bin:$PATH' > .envrc"
+
+# vim
+alias vimrc="vim ~/.vimrc"
