@@ -63,6 +63,16 @@ nnoremap <Leader>t :w<cr>:call RunCurrentSpecFile()<CR>
 nnoremap <Leader>s :w<cr>:call RunNearestSpec()<CR>
 nnoremap <Leader>l :w<cr>:call RunLastSpec()<CR>
 
+" https://gist.github.com/Integralist/8115457
+" I had to prefix the cucumber executable with bin/, unsure why it doesn't
+" pick up the path
+" Run currently open cucumber feature file
+map <Leader>ct :w<cr>:!bin/cucumber %<cr>
+" Run current cucumber scenario
+map <Leader>cs :w<cr>:exe "!bin/cucumber %" . ":" . line(".")<cr>
+
+" map Control-S to Save (from r00k/dotfiles)
+" seems to break sometimes, unsure why
 map <C-s> <esc>:w<CR>
 imap <C-s> <esc>:w<CR>
 map <C-h> :nohl<cr>
@@ -93,3 +103,6 @@ autocmd BufWritePre * :%s/\s\+$//e
 " see 'Navigating Ruby Files with Vim' from ThoughtBot Learn
 runtime macros/matchit.vim
 
+" not sure which of these, if any, are working...
+let g:syntastic_cucumber_checkers = []
+let g:syntastic_gherkin_checkers = []
