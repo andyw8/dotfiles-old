@@ -106,3 +106,5 @@ runtime macros/matchit.vim
 " not sure which of these, if any, are working...
 let g:syntastic_cucumber_checkers = []
 let g:syntastic_gherkin_checkers = []
+
+let g:syntastic_ruby_checkers = ['ruby', 'rubocop']
