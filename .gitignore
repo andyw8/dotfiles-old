@@ -41,7 +41,6 @@
 db/*.sqlite3
 log/*.log
 tmp
-vendor/cache/*
 capybara-*.html
 .Xauthority
 .dvdcss/CACHEDIR.TAG
@@ -60,5 +59,32 @@ Google Drive
 .rdebug_hist
 .rnd
 .swfinfo
-coverage
-.vim/.netrwhist
+coverage/
+rerun.txt
+.repl_history
+*.swp
+tags
+work/ # not working
+.bundler/cache
+.heroku/
+.rbenv
+code/
+play/
+Documentation/
+.vimgolf/
+Public/
+.m2/
+.itmstransporter/
+Applications/
+.gitsh_history
+.guard_history
+.exercism
+.amazon_keys
+.htoprc
+.cheat/
+.putty/randomseed
+.tddium
+.lesshst
+.yard/
+ReadyNAS Remote Shares/
+.config/direnv/allow/
