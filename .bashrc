@@ -46,3 +46,7 @@ set -o vi
 # Disable flow control commands (keeps C-s from freezing everything)
 stty start undef
 stty stop undef
+
+if [ -f `brew --prefix`/etc/bash_completion ]; then
+  . `brew --prefix`/etc/bash_completion
+fi

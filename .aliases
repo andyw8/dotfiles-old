@@ -36,6 +36,8 @@ alias gb='git branch '
 alias gc='git commit'
 alias gd='git diff'
 alias gco='git checkout '
+alias gcom='git checkout master '
+alias gp='git push'
 alias gx='gitx --all'
 alias gl='git log --oneline --graph --all --decorate'
 
