@@ -1,0 +1,3 @@
+#! /usr/bin/env ruby
+branch_name = ARGV.first
+puts `git checkout -b #{branch_name} && git push -u origin #{branch_name}`
