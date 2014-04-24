@@ -46,3 +46,6 @@ alias binpath="echo 'export PATH=$PWD/bin:$PATH' > .envrc"
 
 # vim
 alias vimrc="vim ~/.vimrc"
+
+# rails
+alias rdtp="be rake db:test:prepare"
