@@ -49,3 +49,5 @@ alias vimrc="vim ~/.vimrc"
 
 # rails
 alias rdtp="be rake db:test:prepare"
+alias rdbm="be rake db:migrate"
+alias rdbp="be rake db:test:prepare" # no longer needed in Rails 4.1
