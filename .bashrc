@@ -20,6 +20,7 @@ function parse_git_branch {
 PS1="\h:\W\$(parse_git_branch) \u\$ "
 
 PATH=$PATH:$HOME/bin
+PATH=$PATH:$HOME/dotfiles/bin
 
 # trying to fix postgres
 # http://tammersaleh.com/posts/installing-postgresql-for-rails-3-1-on-lion
