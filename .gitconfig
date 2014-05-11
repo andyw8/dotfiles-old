@@ -18,6 +18,7 @@
     br = branch
     ci = commit
     co = checkout
+    cm = commit
     dc = diff --cached
     dh1 = diff HEAD~1
     di = diff
@@ -40,7 +41,9 @@
     pushall = push --recurse-submodules=on-demand
     r = !git l -20
     ra = !git r --all
+    remotes = remote -v
     st = status
+    tags = tag -l
     type = cat-file -t
 [merge]
     tool = vim
