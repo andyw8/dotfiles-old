@@ -108,7 +108,10 @@ runtime macros/matchit.vim
 let g:syntastic_cucumber_checkers = []
 let g:syntastic_gherkin_checkers = []
 
-let g:syntastic_ruby_checkers = ['ruby', 'rubocop']
+" let g:syntastic_ruby_checkers = ['ruby', 'rubylint', 'rubocop']
+let g:syntastic_ruby_checkers = ['ruby']
+
+
 " https://github.com/garybernhardt/dotfiles/blob/master/.vimrc
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " MULTIPURPOSE TAB KEY
