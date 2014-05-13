@@ -112,6 +112,8 @@ let g:syntastic_gherkin_checkers = []
 let g:syntastic_ruby_checkers = ['ruby']
 
 
+map ,T <esc>:CommandT<CR>
+
 " https://github.com/garybernhardt/dotfiles/blob/master/.vimrc
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " MULTIPURPOSE TAB KEY
