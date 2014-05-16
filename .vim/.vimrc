@@ -108,10 +108,6 @@ runtime macros/matchit.vim
 let g:syntastic_cucumber_checkers = []
 let g:syntastic_gherkin_checkers = []
 
-" let g:syntastic_ruby_checkers = ['ruby', 'rubylint', 'rubocop']
-let g:syntastic_ruby_checkers = ['ruby']
-
-
 map ,T <esc>:CommandT<CR>
 
 " https://github.com/garybernhardt/dotfiles/blob/master/.vimrc
@@ -130,3 +126,19 @@ function! InsertTabWrapper()
 inoremap <tab> <c-r>=InsertTabWrapper()<cr>
 inoremap <s-tab> <c-n>
 
+let g:syntastic_ruby_checkers = ['ruby', 'rubocop']
+" toggle colored right border after 80 chars
+set colorcolumn=81
+let s:color_column_old = 0
+
+function! s:ToggleColorColumn()
+  if s:color_column_old == 0
+    let s:color_column_old = &colorcolumn
+    windo let &colorcolumn = 0
+  else
+    windo let &colorcolumn=s:color_column_old
+    let s:color_column_old = 0
+  endif
+endfunction
+
+nnoremap <Leader>8 :call <SID>ToggleColorColumn()<cr>
