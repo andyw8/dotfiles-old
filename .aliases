@@ -47,6 +47,7 @@ alias binpath="echo 'export PATH=$PWD/bin:$PATH' > .envrc"
 
 # vim
 alias vimrc="vim ~/.vimrc"
+alias df="cd ~/dotfiles && vim ."
 
 alias dot="cd ~/dotfiles"
 
