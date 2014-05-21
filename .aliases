@@ -40,6 +40,7 @@ alias gcom='git checkout master '
 alias gp='git push'
 alias gx='gitx --all'
 alias gl='git log --oneline --graph --all --decorate'
+alias grom='git rebase origin/master'
 
 alias h='heroku'
 alias binpath="echo 'export PATH=$PWD/bin:$PATH' > .envrc"
