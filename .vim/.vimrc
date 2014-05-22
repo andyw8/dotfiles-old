@@ -130,6 +130,8 @@ inoremap <s-tab> <c-n>
 
 let g:syntastic_ruby_checkers = ['ruby']
 
+map <C-t> <esc>:tabnew<CR>
+
 " Improve up/down movement on wrapped lines https://github.com/artemave/myrcs
 nnoremap j gj
 nnoremap k gk
