@@ -127,6 +127,10 @@ inoremap <tab> <c-r>=InsertTabWrapper()<cr>
 inoremap <s-tab> <c-n>
 
 let g:syntastic_ruby_checkers = ['ruby', 'rubocop']
+" Improve up/down movement on wrapped lines https://github.com/artemave/myrcs
+nnoremap j gj
+nnoremap k gk
+
 map <C-t> <esc>:CommandT<CR>
 
 " https://github.com/thoughtbot/vim-rspec#iterm-instead-of-terminal
