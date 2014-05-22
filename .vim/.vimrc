@@ -67,9 +67,9 @@ nnoremap <Leader>l :w<cr>:call RunLastSpec()<CR>
 " I had to prefix the cucumber executable with bin/, unsure why it doesn't
 " pick up the path
 " Run currently open cucumber feature file
-map <Leader>ct :w<cr>:!bin/cucumber %<cr>
+map <Leader>ct :w<cr>:!bin/cucumber -r features %<cr>
 " Run current cucumber scenario
-map <Leader>cs :w<cr>:exe "!bin/cucumber %" . ":" . line(".")<cr>
+map <Leader>cs :w<cr>:exe "!bin/cucumber -r features % -l" . line(".")<cr>
 
 " map Control-S to Save (from r00k/dotfiles)
 " seems to break sometimes, unsure why
