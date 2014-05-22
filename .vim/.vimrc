@@ -71,18 +71,15 @@ map <Leader>ct :w<cr>:!bin/cucumber -r features %<cr>
 " Run current cucumber scenario
 map <Leader>cs :w<cr>:exe "!bin/cucumber -r features % -l" . line(".")<cr>
 
-" map Control-S to Save (from r00k/dotfiles)
-" seems to break sometimes, unsure why
 map <C-s> <esc>:w<CR>
 imap <C-s> <esc>:w<CR>
 map <C-h> :nohl<cr>
-
-" map Contro-s to :q
 map <C-q> <esc>:q<CR>
 imap <C-q> <esc>:q<CR>
 
 " reload config
 map <Leader>so :so %<cr>
+
 " http://jeffkreeftmeijer.com/2012/relative-line-numbers-in-vim-for-super-fast-movement/
 set relativenumber
 autocmd InsertEnter * :set number
