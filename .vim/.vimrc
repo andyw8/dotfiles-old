@@ -112,6 +112,7 @@ runtime macros/matchit.vim
 let g:syntastic_cucumber_checkers = []
 let g:syntastic_gherkin_checkers = []
 
+<<<<<<< HEAD
 map ,T <esc>:CommandT<CR>
 
 " https://github.com/garybernhardt/dotfiles/blob/master/.vimrc
@@ -130,7 +131,8 @@ function! InsertTabWrapper()
 inoremap <tab> <c-r>=InsertTabWrapper()<cr>
 inoremap <s-tab> <c-n>
 
-let g:syntastic_ruby_checkers = ['ruby', 'rubocop']
+let g:syntastic_ruby_checkers = ['ruby']
+
 " Improve up/down movement on wrapped lines https://github.com/artemave/myrcs
 nnoremap j gj
 nnoremap k gk
