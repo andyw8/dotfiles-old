@@ -127,6 +127,9 @@ inoremap <tab> <c-r>=InsertTabWrapper()<cr>
 inoremap <s-tab> <c-n>
 
 let g:syntastic_ruby_checkers = ['ruby', 'rubocop']
+" https://github.com/thoughtbot/vim-rspec#iterm-instead-of-terminal
+"
+let g:rspec_runner = "os_x_iterm"
 " toggle colored right border after 80 chars
 set colorcolumn=81
 let s:color_column_old = 0
