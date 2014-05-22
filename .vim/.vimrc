@@ -77,6 +77,10 @@ map <C-s> <esc>:w<CR>
 imap <C-s> <esc>:w<CR>
 map <C-h> :nohl<cr>
 
+" map Contro-s to :q
+map <C-q> <esc>:q<CR>
+imap <C-q> <esc>:q<CR>
+
 " reload config
 map <Leader>so :so %<cr>
 " http://jeffkreeftmeijer.com/2012/relative-line-numbers-in-vim-for-super-fast-movement/
