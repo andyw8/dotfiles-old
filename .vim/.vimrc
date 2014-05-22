@@ -127,6 +127,8 @@ inoremap <tab> <c-r>=InsertTabWrapper()<cr>
 inoremap <s-tab> <c-n>
 
 let g:syntastic_ruby_checkers = ['ruby', 'rubocop']
+map <C-t> <esc>:CommandT<CR>
+
 " https://github.com/thoughtbot/vim-rspec#iterm-instead-of-terminal
 "
 let g:rspec_runner = "os_x_iterm"
