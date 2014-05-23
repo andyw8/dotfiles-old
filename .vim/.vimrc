@@ -109,7 +109,6 @@ runtime macros/matchit.vim
 let g:syntastic_cucumber_checkers = []
 let g:syntastic_gherkin_checkers = []
 
-<<<<<<< HEAD
 map ,T <esc>:CommandT<CR>
 
 " https://github.com/garybernhardt/dotfiles/blob/master/.vimrc
