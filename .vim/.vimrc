@@ -127,7 +127,8 @@ function! InsertTabWrapper()
 inoremap <tab> <c-r>=InsertTabWrapper()<cr>
 inoremap <s-tab> <c-n>
 
-let g:syntastic_ruby_checkers = ['ruby']
+let g:syntastic_ruby_checkers = ['mri', 'rubocop']
+let g:syntastic_aggregate_errors = 1
 
 map <C-t> <esc>:tabnew<CR>
 
