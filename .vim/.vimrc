@@ -51,8 +51,8 @@ nnoremap <C-H> <C-W><C-H>
 " set the tag file search order
 set tags=./tags;
 
-" use ack instead of grep
-set grepprg=ack
+" use ag instead of grep
+set grepprg=ag
 
 " easy bindings for navigating next/previous grep/ack results
 map <C-n> :cn<CR>
