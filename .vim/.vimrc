@@ -105,10 +105,6 @@ autocmd BufWritePre * :%s/\s\+$//e
 " see 'Navigating Ruby Files with Vim' from ThoughtBot Learn
 runtime macros/matchit.vim
 
-" not sure which of these, if any, are working...
-let g:syntastic_cucumber_checkers = []
-let g:syntastic_gherkin_checkers = []
-
 map ,T <esc>:CommandT<CR>
 
 " https://github.com/garybernhardt/dotfiles/blob/master/.vimrc
@@ -126,9 +122,6 @@ function! InsertTabWrapper()
   endfunction
 inoremap <tab> <c-r>=InsertTabWrapper()<cr>
 inoremap <s-tab> <c-n>
-
-let g:syntastic_ruby_checkers = ['mri', 'rubocop']
-let g:syntastic_aggregate_errors = 1
 
 map <C-t> <esc>:tabnew<CR>
 
