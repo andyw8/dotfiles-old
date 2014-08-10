@@ -58,3 +58,5 @@ alias rdbp="be rake db:test:prepare" # no longer needed in Rails 4.1
 alias migrate="rake db:migrate db:rollback && rake db:migrate"
 
 alias bins="cp ~/.envrc_template .envrc && direnv allow"
+
+alias tailf="tail -f"
