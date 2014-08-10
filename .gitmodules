@@ -76,3 +76,6 @@
 [submodule ".vim/bundle/greplace.vim"]
 	path = .vim/bundle/greplace.vim
 	url = https://github.com/skwp/greplace.vim
+[submodule ".vim/bundle/vim-markdown"]
+	path = .vim/bundle/vim-markdown
+	url = https://github.com/plasticboy/vim-markdown.git
