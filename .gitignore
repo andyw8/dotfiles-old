@@ -2,7 +2,7 @@
 .Trash
 /.CFUserTextEncoding
 /.bash_history
-/.bbc
+/.cache
 /.dropbox
 /.fontconfig
 /.fonts
@@ -17,6 +17,7 @@
 /.npm
 /.private_aliases
 /.relish
+/.rubies
 /.rvm
 /.sauce/ondemand.yml
 /.smb
