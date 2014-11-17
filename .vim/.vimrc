@@ -32,8 +32,8 @@ inoremap <down> <nop>
 inoremap <left> <nop>
 inoremap <right> <nop>
 
-" change the mapleader from \ to ,
-let mapleader=","
+" change the mapleader from \ to Space
+let mapleader="\<Space>"
 
 " use pathogen for plugin management
 execute pathogen#infect()
