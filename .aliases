@@ -38,7 +38,7 @@ alias gd='git diff'
 alias gco='git checkout '
 alias gcom='git checkout master '
 alias gp='git push'
-alias gx='gitx --all'
+alias gx='gitx'
 alias gl='git log --oneline --graph --all --decorate'
 alias grom='git rebase origin/master'
 
