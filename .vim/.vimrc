@@ -139,3 +139,6 @@ nnoremap <Leader>8 :call <SID>ToggleColorColumn()<cr>
 
 " https://github.com/plasticboy/vim-markdown
 let g:vim_markdown_folding_disabled=1
+
+" http://robots.thoughtbot.com/use-rspec-vim-with-tmux-and-dispatch
+let g:rspec_command = "Dispatch rspec {spec}"
