@@ -9,6 +9,7 @@
 /.gem
 /.heroku/credentials
 /.homesick
+/.idea
 /.irb-history
 /.irb_history
 /.jenkins
