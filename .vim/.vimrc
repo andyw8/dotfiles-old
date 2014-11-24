@@ -80,7 +80,7 @@ autocmd InsertEnter * :set number
 autocmd InsertLeave * :set relativenumber
 
 " trigger pry before current line
-map ,p Orequire 'pry'; binding.pry<ESC>
+map <Leader>p Orequire 'pry'; binding.pry<ESC>
 
 " http://danielmiessler.com/ use jk to exit insert mode, instead of ESC
 inoremap jk <ESC>
