@@ -141,5 +141,8 @@ nnoremap <Leader>8 :call <SID>ToggleColorColumn()<cr>
 " https://github.com/plasticboy/vim-markdown
 let g:vim_markdown_folding_disabled=1
 
+" dot formula with range (from Drew Neil's core-vim-course)
+:xnoremap . :norm.<CR>
+
 " http://robots.thoughtbot.com/use-rspec-vim-with-tmux-and-dispatch
 let g:rspec_command = "Dispatch rspec {spec}"
