@@ -120,7 +120,9 @@ nnoremap k gk
 " https://github.com/thoughtbot/vim-rspec#iterm-instead-of-terminal
 " (doesn't work?)
 let g:rspec_runner = "os_x_iterm"
+
 " toggle colored right border after 80 chars
+highlight ColorColumn ctermbg=8 " Dark Gray
 set colorcolumn=81
 let s:color_column_old = 0
 
