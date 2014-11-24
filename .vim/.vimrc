@@ -92,7 +92,8 @@ set directory=/tmp//" Don't clutter my dirs up with swp and tmp files
 " strip whitespace on save
 autocmd BufWritePre * :%s/\s\+$//e
 
-map ,T <esc>:CommandT<CR>
+map <Leader>T <esc>:CommandT<CR>
+map <C-t> <esc>:CommandT<CR>
 
 " https://github.com/garybernhardt/dotfiles/blob/master/.vimrc
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -115,8 +116,6 @@ map <C-t> <esc>:tabnew<CR>
 " Improve up/down movement on wrapped lines https://github.com/artemave/myrcs
 nnoremap j gj
 nnoremap k gk
-
-map <C-t> <esc>:CommandT<CR>
 
 " https://github.com/thoughtbot/vim-rspec#iterm-instead-of-terminal
 "
