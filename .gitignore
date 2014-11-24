@@ -92,3 +92,4 @@ ReadyNAS Remote Shares/
 .config/direnv/allow/
 Alfred.alfredpreferences/
 .vim/.netrwhist
+dump.rdb
