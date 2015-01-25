@@ -6,7 +6,6 @@ alias top="htop"
 # git
 alias push="rake && git push"
 alias pull="git pull"
-alias deploy="git push heroku master"
 function g {
   if [[ $# > 0 ]]; then
     git $@
