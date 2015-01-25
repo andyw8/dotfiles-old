@@ -4,7 +4,7 @@ alias htop="sudo htop"
 alias top="htop"
 
 # git
-alias push="git push"
+alias push="rake && git push"
 alias pull="git pull"
 alias deploy="git push heroku master"
 function g {
