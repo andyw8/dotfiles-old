@@ -63,3 +63,4 @@ alias unhitch='hitch -u'
 
 # Uncomment to persist pair info between terminal instances
 # hitch
+export PATH="$HOME/Library/Haskell/bin:$PATH"
