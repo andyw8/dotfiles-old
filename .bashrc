@@ -63,4 +63,9 @@ alias unhitch='hitch -u'
 
 # Uncomment to persist pair info between terminal instances
 # hitch
+
+export PR_ASSIGNER_AUTH_TOKEN=1ee0e0e6d8615512e9fe2c80fc89e4220780388a
+export GITHUB_AUTH_TOKEN=1ee0e0e6d8615512e9fe2c80fc89e4220780388a
+
 export PATH="$HOME/Library/Haskell/bin:$PATH"
+export ARCHFLAGS="-arch x86_64" # http://stackoverflow.com/a/27033725
