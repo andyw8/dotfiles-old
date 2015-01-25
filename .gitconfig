@@ -56,3 +56,5 @@
 	branch = 1
 [branch]
 	autosetuprebase = always
+[init]
+	templatedir = ~/dotfiles/.git_template
