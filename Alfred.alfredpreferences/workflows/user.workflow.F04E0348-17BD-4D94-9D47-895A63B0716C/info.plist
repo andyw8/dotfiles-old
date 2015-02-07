@@ -1,83 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>bundleid</key>
-	<string></string>
-	<key>connections</key>
-	<dict>
-		<key>20F91B2A-B330-42C1-A897-E7B3E317C377</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>C685700A-B1CE-4982-B7CC-3D0C46C37541</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-			</dict>
-		</array>
-	</dict>
-	<key>createdby</key>
-	<string>Dan Gibbons</string>
-	<key>description</key>
-	<string>Creates a new task in OmniFocus' inbox</string>
-	<key>disabled</key>
-	<false/>
-	<key>name</key>
-	<string>New OmniFocus Inbox Task</string>
-	<key>objects</key>
-	<array>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>keyword</key>
-				<string>todo</string>
-				<key>subtext</key>
-				<string>OmniFocus Inbox</string>
-				<key>text</key>
-				<string>New Task</string>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>20F91B2A-B330-42C1-A897-E7B3E317C377</string>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>applescript</key>
-				<string>on alfred_script(q)
-		set theName to (q)	set isRunning to false		tell application "System Events"		if exists process "OmniFocus" then			set isRunning to true		end if	end tell		if isRunning is true then		tell application "OmniFocus"			tell front document				make new inbox task with properties {name:theName}			end tell		end tell	else		tell application "OmniFocus" to activate				tell application "OmniFocus"			tell front document				make new inbox task with properties {name:theName}			end tell		end tell	end if	end alfred_script</string>
-				<key>cachescript</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.applescript</string>
-			<key>uid</key>
-			<string>C685700A-B1CE-4982-B7CC-3D0C46C37541</string>
-		</dict>
-	</array>
-	<key>readme</key>
-	<string></string>
-	<key>uidata</key>
-	<dict>
-		<key>20F91B2A-B330-42C1-A897-E7B3E317C377</key>
-		<dict>
-			<key>ypos</key>
-			<real>10</real>
-		</dict>
-		<key>C685700A-B1CE-4982-B7CC-3D0C46C37541</key>
-		<dict>
-			<key>ypos</key>
-			<real>10</real>
-		</dict>
-	</dict>
-	<key>webaddress</key>
-	<string></string>
-</dict>
-</plist>
