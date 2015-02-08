@@ -1,0 +1,27 @@
+" thoughtbot/dotfiles sets this to github but I prefer the default
+colorscheme default
+
+" Better navigation within wrapped lines
+" nmap k gk
+" nmap j gj
+
+" Don't add the comment prefix when I hit enter or o/O on a comment line.
+"set formatoptions-=or
+
+"map <C-t> <esc>:tabnew<CR>
+
+" map <Leader>bi :!bundle install<cr>
+" map <Leader>l <Plug>RunMostRecentSpec  " vim-spec-runner
+" map <Leader>o :CommandT<cr>
+" map <Leader>s <Plug>RunFocusedSpec     " vim-spec-runner
+" map <Leader>so :source ~/.vimrc<cr>
+" map <Leader>t <Plug>RunCurrentSpecFile " vim-spec-runner
+" nmap <Leader>vi :source ~/.vimrc<cr>:PluginInstall<cr>
+
+" Use vim-dispatch plug-in
+let g:rspec_command = "Dispatch bundle exec rspec {spec}"
+
+source ~/.vimrc.relative
+
+" tag complete only from current buffer and ctags
+" :set complete=.,t
