@@ -1,6 +1,12 @@
+# shell
 alias reload="source ~/.bashrc"
 alias htop="sudo htop"
 alias top="htop"
+alias bins="cp ~/.envrc_template .envrc && direnv allow"
+alias tailf="tail -f"
+alias j=z
+alias binpath="echo 'export PATH=$PWD/bin:$PATH' > .envrc"
+alias h='heroku'
 
 # git
 alias push="rake && git push"
@@ -13,7 +19,7 @@ function g {
   fi
 }
 
-# ruby
+# ruby / rails
 alias bi="bundle check || bundle install"
 alias be="bundle exec"
 alias bu="bundle update"
@@ -32,22 +38,11 @@ alias gx='gitx'
 alias gl='git log --oneline --graph --all --decorate'
 alias grom='git rebase origin/master'
 
-alias h='heroku'
-alias binpath="echo 'export PATH=$PWD/bin:$PATH' > .envrc"
-
-# vim
-alias vimrc="vim ~/.vimrc"
-alias df="cd ~/dotfiles && vim ."
-
-alias dot="cd ~/dotfiles"
-
 # rails
 alias rdtp="be rake db:test:prepare"
 alias rdbm="be rake db:migrate"
 alias rdbp="be rake db:test:prepare" # no longer needed in Rails 4.1
 
-alias bins="cp ~/.envrc_template .envrc && direnv allow"
+# projects
 
-alias tailf="tail -f"
-
-alias j=z
+alias tr='~/code/github/techradar'
