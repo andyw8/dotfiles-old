@@ -19,7 +19,7 @@ colorscheme default
 " nmap <Leader>vi :source ~/.vimrc<cr>:PluginInstall<cr>
 
 " Use vim-dispatch plug-in
-let g:rspec_command = "Dispatch bundle exec rspec {spec}"
+let g:rspec_command = "Dispatch rspec {spec}"
 
 source ~/.vimrc.relative
 
