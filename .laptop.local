@@ -1,38 +1,46 @@
 #!/bin/sh
 
-brew install asciinema
-brew install ctags
-brew install direnv
-brew install git
-brew install gitsh
-brew install go
-brew install graphviz
-brew install heroku-toolbelt
-brew install hub
-brew install leiningen
-brew install mongodb
-brew install mysql
-brew install node
-brew install openssl
-brew install phantomjs
-brew install rbenv
-brew install redis
-brew install rmtrash
-brew install ruby-build
-brew install ruby-install
-brew install sqlite
-brew install tig
-brew install tmux
-brew install tree
-brew install wget
-brew install z
+brew_install_or_upgrade asciinema
+brew_install_or_upgrade brew-cask
+brew_install_or_upgrade ctags
+brew_install_or_upgrade direnv
+brew_install_or_upgrade git
+brew_install_or_upgrade gitsh
+brew_install_or_upgrade go
+brew_install_or_upgrade graphviz
+brew_install_or_upgrade heroku-toolbelt
+brew_install_or_upgrade hub
+brew_install_or_upgrade leiningen
+brew_install_or_upgrade mongodb
+brew_install_or_upgrade mysql
+brew_install_or_upgrade node
+brew_install_or_upgrade openssl
+brew_install_or_upgrade phantomjs
+brew_install_or_upgrade rbenv
+brew_install_or_upgrade redis
+brew_install_or_upgrade rmtrash
+brew_install_or_upgrade ruby-build
+brew_install_or_upgrade ruby-install
+brew_install_or_upgrade sqlite
+brew_install_or_upgrade tig
+brew_install_or_upgrade tmux
+brew_install_or_upgrade tree
+brew_install_or_upgrade wget
+brew_install_or_upgrade z
+
+brew_tap 'caskroom/cask'
 
 brew cask install 1password
 brew cask install alfred
 brew cask install arq
+brew cask install dash
+brew cask install duet
+brew cask install google-chrome
+brew cask install iterm2
+brew cask install karabiner
+brew cask install rowanj-gitx
 # brew cask install dash # licensed via App Store
 brew cask install dropbox
-brew cask install duet
 # brew cask install evernote # requires an import if App Store version used
 # previously
 brew cask install flux
