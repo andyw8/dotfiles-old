@@ -1,3 +1,10 @@
 . `brew --prefix`/etc/profile.d/z.sh
-# export PATH="$HOME/.rbenv/bin:$PATH"
-# eval "$(rbenv init -)"
+alias -s rb=$EDITOR
+alias -s feature=$EDITOR
+alias -s erb=$EDITOR
+alias -s haml=$EDITOR
+alias -s js=$EDITOR
+alias -s scss=$EDITOR
+alias -s coffee=$EDITOR
+alias -s cs=$EDITOR
+alias -s rake=$EDITOR

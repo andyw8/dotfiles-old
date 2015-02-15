@@ -1,10 +1,10 @@
 " Disable all these until I decide which from vimrc.bundles I want
 "
 "Plugin 'ervandew/supertab'
-"Plugin 'rking/ag.vim'             " For the_silver_searcher (grep replacement)
+Plugin 'rking/ag.vim'             " For the_silver_searcher (grep replacement)
 "Plugin 'skwp/greplace.vim'        " Global search and replace
 "Plugin 'tpope/vim-commentary'
 "Plugin 'tpope/vim-cucumber'
 Plugin 'tpope/vim-dispatch'       " asynchronous build and test dispatcher
-"Plugin 'tpope/vim-haml'
+" Plugin 'tpope/vim-haml'
 "Plugin 'wincent/Command-T'        " Fast opening of files

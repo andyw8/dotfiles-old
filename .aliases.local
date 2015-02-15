@@ -26,6 +26,7 @@ alias be="bundle exec"
 alias bu="bundle update"
 alias r="rails"
 alias c="cucumber"
+alias ttr="touch tmp/restart.txt"
 
 # git aliases from http://gitimmersion.com/lab_11.html
 alias ga='git add '
