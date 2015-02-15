@@ -25,6 +25,7 @@ brew install tig
 brew install tmux
 brew install tree
 brew install wget
+brew install youtube-dl
 brew install z
 
 brew cask install 1password
