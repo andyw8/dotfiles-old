@@ -3,7 +3,6 @@
 brew_install_or_upgrade asciinema
 brew_install_or_upgrade brew-cask
 brew_install_or_upgrade ctags
-brew_install_or_upgrade direnv
 brew_install_or_upgrade git
 brew_install_or_upgrade gitsh
 brew_install_or_upgrade go
@@ -26,6 +25,7 @@ brew_install_or_upgrade tig
 brew_install_or_upgrade tmux
 brew_install_or_upgrade tree
 brew_install_or_upgrade wget
+brew_install_or_upgrade youtube-dl
 brew_install_or_upgrade z
 
 brew_tap 'caskroom/cask'
