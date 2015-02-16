@@ -26,7 +26,6 @@ source ~/.vimrc.relative
 " tag complete only from current buffer and ctags
 " :set complete=.,t
 
-
 " disable color column
 set colorcolumn=0
 
