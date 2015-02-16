@@ -29,3 +29,7 @@ source ~/.vimrc.relative
 
 " disable color column
 set colorcolumn=0
+
+" strip whitespace on save
+autocmd BufWritePre *.rb :%s/\s\+$//e
+
