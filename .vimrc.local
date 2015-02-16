@@ -32,3 +32,6 @@ set colorcolumn=0
 " strip whitespace on save
 autocmd BufWritePre *.rb :%s/\s\+$//e
 
+" cucumber check runs extremely slowly for some reason
+let g:syntastic_cucumber_checkers = []
+
