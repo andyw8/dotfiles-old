@@ -35,3 +35,10 @@ autocmd BufWritePre *.rb :%s/\s\+$//e
 " cucumber check runs extremely slowly for some reason
 let g:syntastic_cucumber_checkers = []
 
+" Run tests
+autocmd FileType cucumber nmap <leader>s :call RunCucumberCommand(line('.'))<CR>
+autocmd FileType cucumber nmap <leader>t :call RunCucumberCommand()<CR>
+function! RunCucumberCommand(...)
+  let @t = ':!cucumber ' . expand('%') . (a:0 == 1 ? ':'.line('.') : '')
+  execute @t
+endfunction
