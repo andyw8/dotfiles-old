@@ -1,5 +1,7 @@
 " Disable all these until I decide which from vimrc.bundles I want
 "
+Plugin 'christoomey/vim-tmux-navigator'
+Plugin 'christoomey/vim-tmux-runner'
 "Plugin 'ervandew/supertab'
 Plugin 'rking/ag.vim'             " For the_silver_searcher (grep replacement)
 "Plugin 'skwp/greplace.vim'        " Global search and replace
