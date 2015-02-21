@@ -18,8 +18,13 @@ colorscheme default
 " map <Leader>t <Plug>RunCurrentSpecFile " vim-spec-runner
 " nmap <Leader>vi :source ~/.vimrc<cr>:PluginInstall<cr>
 
+" vim-rspec
+nnoremap <Leader>a :call RunAllSpecs()<CR>
+
 " Use vim-dispatch plug-in
-let g:rspec_command = "Dispatch rspec {spec}"
+" let g:rspec_command = "Dispatch rspec {spec}"
+" https://upcase.com/videos/tmux-vim-integration
+let g:rspec_command = "VtrSendCommandToRunner! rspec {spec}"
 
 source ~/.vimrc.relative
 
@@ -29,3 +34,17 @@ source ~/.vimrc.relative
 
 " disable color column
 set colorcolumn=0
+
+" https://github.com/christoomey/vim-tmux-navigator
+let g:tmux_navigator_no_mappings = 1
+nnoremap <silent> {Left-mapping} :TmuxNavigateLeft<cr>
+nnoremap <silent> {Down-Mapping} :TmuxNavigateDown<cr>
+nnoremap <silent> {Up-Mapping} :TmuxNavigateUp<cr>
+nnoremap <silent> {Right-Mapping} :TmuxNavigateRight<cr>
+nnoremap <silent> {Previous-Mapping} :TmuxNavigatePrevious<cr>
+
+" automatically rebalance windows on vim resize
+autocmd VimResized * :wincmd =
+
+" https://github.com/christoomey/vim-tmux-runner
+nnoremap <leader>irb :VtrOpenRunner {'orientation': 'v', 'percentage': 25, 'cmd': 'irb'}<cr>

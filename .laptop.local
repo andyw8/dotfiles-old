@@ -15,6 +15,8 @@ brew_install_or_upgrade mysql
 brew_install_or_upgrade node
 brew_install_or_upgrade openssl
 brew_install_or_upgrade phantomjs
+# https://robots.thoughtbot.com/tmux-copy-paste-on-os-x-a-better-future
+brew install_or_upgrade reattach-to-user-namespace
 brew_install_or_upgrade rbenv
 brew_install_or_upgrade redis
 brew_install_or_upgrade rmtrash
@@ -27,6 +29,9 @@ brew_install_or_upgrade tree
 brew_install_or_upgrade wget
 brew_install_or_upgrade youtube-dl
 brew_install_or_upgrade z
+
+brew tap nviennot/tmate
+brew_install_or_upgrade tmate
 
 brew_tap 'caskroom/cask'
 
