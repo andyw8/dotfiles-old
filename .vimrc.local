@@ -31,7 +31,6 @@ source ~/.vimrc.relative
 " tag complete only from current buffer and ctags
 " :set complete=.,t
 
-
 " disable color column
 set colorcolumn=0
 
@@ -48,3 +47,17 @@ autocmd VimResized * :wincmd =
 
 " https://github.com/christoomey/vim-tmux-runner
 nnoremap <leader>irb :VtrOpenRunner {'orientation': 'v', 'percentage': 25, 'cmd': 'irb'}<cr>
+
+" strip whitespace on save
+autocmd BufWritePre *.rb :%s/\s\+$//e
+
+" cucumber check runs extremely slowly for some reason
+let g:syntastic_cucumber_checkers = []
+
+" Run tests
+autocmd FileType cucumber nmap <leader>s :call RunCucumberCommand(line('.'))<CR>
+autocmd FileType cucumber nmap <leader>t :call RunCucumberCommand()<CR>
+function! RunCucumberCommand(...)
+  let @t = ':!cucumber ' . expand('%') . (a:0 == 1 ? ':'.line('.') : '')
+  execute @t
+endfunction
