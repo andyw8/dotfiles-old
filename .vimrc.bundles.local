@@ -3,6 +3,8 @@
 Plugin 'christoomey/vim-tmux-navigator'
 Plugin 'christoomey/vim-tmux-runner'
 "Plugin 'ervandew/supertab'
+Plugin 'jgdavey/vim-blockle'
+Plugin 'ngmy/vim-rubocop'
 Plugin 'rking/ag.vim'             " For the_silver_searcher (grep replacement)
 "Plugin 'skwp/greplace.vim'        " Global search and replace
 "Plugin 'tpope/vim-commentary'
