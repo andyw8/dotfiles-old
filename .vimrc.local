@@ -53,3 +53,5 @@ function! RunCucumberCommand(...)
   let @t = ':!cucumber ' . expand('%') . (a:0 == 1 ? ':'.line('.') : '')
   execute @t
 endfunction
+
+nnoremap <leader>o :CtrlP<CR>
