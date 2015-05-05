@@ -9,3 +9,6 @@ alias -s coffee=$EDITOR
 alias -s cs=$EDITOR
 alias -s rake=$EDITOR
 export SPRING_LOG=/tmp/spring.log
+
+export PATH="$HOME/.bin:$PATH"
+eval "$(rbenv init - zsh --no-rehash)"
