@@ -1,5 +1,8 @@
 " thoughtbot/dotfiles sets this to github but I prefer the default
 colorscheme default
+if v:version < 704
+  echo "Warning - old Vim version"
+endif
 
 " Better navigation within wrapped lines
 " nmap k gk
