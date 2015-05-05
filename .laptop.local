@@ -1,7 +1,7 @@
 #!/bin/sh
 
 brew_install_or_upgrade asciinema
-brew_install_or_upgrade brew-cask
+brew_install_or_upgrade caskroom/cask/brew-cask
 brew_install_or_upgrade ctags
 brew_install_or_upgrade git
 brew_install_or_upgrade gitsh
