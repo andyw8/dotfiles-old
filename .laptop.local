@@ -9,6 +9,7 @@ brew_install_or_upgrade go
 brew_install_or_upgrade graphviz
 brew_install_or_upgrade heroku-toolbelt
 brew_install_or_upgrade hub
+brew_install_or_upgrade jsonpp
 brew_install_or_upgrade leiningen
 brew_install_or_upgrade mongodb
 brew_install_or_upgrade mysql
