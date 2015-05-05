@@ -16,6 +16,8 @@ brew_install_or_upgrade mysql
 brew_install_or_upgrade node
 brew_install_or_upgrade openssl
 brew_install_or_upgrade phantomjs
+# note post-install instructions
+brew_install_or_upgrade pow
 # https://robots.thoughtbot.com/tmux-copy-paste-on-os-x-a-better-future
 brew install_or_upgrade reattach-to-user-namespace
 brew_install_or_upgrade rbenv
