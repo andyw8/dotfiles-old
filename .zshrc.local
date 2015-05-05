@@ -8,3 +8,4 @@ alias -s scss=$EDITOR
 alias -s coffee=$EDITOR
 alias -s cs=$EDITOR
 alias -s rake=$EDITOR
+export SPRING_LOG=/tmp/spring.log
