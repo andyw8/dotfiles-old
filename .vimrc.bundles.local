@@ -1,14 +1,19 @@
-" Disable all these until I decide which from vimrc.bundles I want
-"
-Plugin 'christoomey/vim-tmux-navigator'
-Plugin 'christoomey/vim-tmux-runner'
-"Plugin 'ervandew/supertab'
-Plugin 'jgdavey/vim-blockle'
-Plugin 'ngmy/vim-rubocop'
-Plugin 'rking/ag.vim'             " For the_silver_searcher (grep replacement)
-"Plugin 'skwp/greplace.vim'        " Global search and replace
-"Plugin 'tpope/vim-commentary'
-Plugin 'tpope/vim-cucumber'
-Plugin 'tpope/vim-dispatch'       " asynchronous build and test dispatcher
-" Plugin 'tpope/vim-haml'
-"Plugin 'wincent/Command-T'        " Fast opening of files
+Plug 'airblade/vim-gitgutter'
+Plug 'christoomey/vim-tmux-navigator'
+Plug 'christoomey/vim-tmux-runner'
+Plug 'danro/rename.vim'
+"Plug 'ervandew/supertab'
+Plug 'jgdavey/vim-blockle'
+Plug 'kana/vim-textobj-user' " needed for vim-textobj-rubyblock
+Plug 'nelstrom/vim-textobj-rubyblock'
+Plug 'ngmy/vim-rubocop'
+Plug 'rking/ag.vim'             " For the_silver_searcher (grep replacement)
+Plug 'skwp/greplace.vim'        " Global search and replace
+Plug 'takac/vim-hardtime'
+"Plug 'tpope/vim-commentary'
+Plug 'tpope/vim-cucumber'
+Plug 'tpope/vim-dispatch'       " asynchronous build and test dispatcher
+Plug 'tpope/vim-haml'
+Plug 'tpope/vim-projectionist'
+Plug 'tpope/vim-rake'
+"Plug 'wincent/Command-T'        " Fast opening of files
