@@ -62,3 +62,6 @@ function! RunCucumberCommand(...)
 endfunction
 
 nnoremap <leader>o :CtrlP<CR>
+
+" disable gitgutter by default
+let g:gitgutter_enabled = 0
