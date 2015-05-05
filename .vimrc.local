@@ -4,6 +4,10 @@ if v:version < 704
   echo "Warning - old Vim version"
 endif
 
+if !has('clipboard')
+  echo "Warning - clipboard not enabled"
+endif
+
 " Better navigation within wrapped lines
 " nmap k gk
 " nmap j gj
