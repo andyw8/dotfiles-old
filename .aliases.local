@@ -48,3 +48,5 @@ alias rdbp="be rake db:test:prepare" # no longer needed in Rails 4.1
 # projects
 
 alias tr='~/code/github/techradar'
+
+alias latest-ruby="brew update && brew upgrade rbenv ruby-build"
