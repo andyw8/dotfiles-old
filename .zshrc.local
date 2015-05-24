@@ -8,4 +8,10 @@ alias -s scss=$EDITOR
 alias -s coffee=$EDITOR
 alias -s cs=$EDITOR
 alias -s rake=$EDITOR
+
+# https://github.com/krisleech/tmuxinator
+# source ~/.projects
+
+# autocompletion
+# source ~/.bin/tmuxinator.zsh
 export SPRING_LOG=/tmp/spring.log
