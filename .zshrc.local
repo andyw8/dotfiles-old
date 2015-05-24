@@ -15,3 +15,4 @@ alias -s rake=$EDITOR
 # autocompletion
 # source ~/.bin/tmuxinator.zsh
 export SPRING_LOG=/tmp/spring.log
+export POW_TIMEOUT=1800
