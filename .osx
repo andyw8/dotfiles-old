@@ -1,0 +1,4 @@
+# Based on: https://github.com/mathiasbynens/dotfiles/blob/master/.osx
+
+# Disable transparency in the menu bar and elsewhere on Yosemite
+defaults write com.apple.universalaccess reduceTransparency -bool true
