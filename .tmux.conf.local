@@ -40,7 +40,6 @@ bind -n C-l if-shell "$is_vim" "send-keys C-l" "select-pane -R"
 bind -n C-\ if-shell "$is_vim" "send-keys C-\\" "select-pane -l"
 
 set -g mode-mouse on
-set -g prefix C-o
 
 bind -n S-Left resize-pane -L 2
 bind -n S-Right resize-pane -R 2
