@@ -63,5 +63,11 @@ endfunction
 
 nnoremap <leader>o :CtrlP<CR>
 
+" enable paste mode, paste from system clipboard (* register) at current indendation level (]), disable paste mode (from @r00k)
+map <leader>p :set paste<CR>o<esc>"*]p:set nopaste<cr>
+
+" use the quotestar register for all yank, delete, change, and put operations that have no register explicitly specified
+set clipboard=unnamed
+
 " disable gitgutter by default
 let g:gitgutter_enabled = 0
