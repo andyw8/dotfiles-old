@@ -1,11 +1,8 @@
 # shell
-alias reload="source ~/.bashrc"
 alias htop="sudo htop"
 alias top="htop"
-alias bins="cp ~/.envrc_template .envrc && direnv allow"
 alias tailf="tail -f"
 alias j=z
-alias binpath="echo 'export PATH=$PWD/bin:$PATH' > .envrc"
 alias h='heroku'
 alias x='exit'
 
