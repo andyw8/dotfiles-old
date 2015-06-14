@@ -41,9 +41,9 @@ alias gl='git log --oneline --graph --all --decorate'
 alias grom='git rebase origin/master'
 
 # rails
-alias rdtp="be rake db:test:prepare"
-alias rdbm="be rake db:migrate"
-alias rdbp="be rake db:test:prepare" # no longer needed in Rails 4.1
+alias rdtp="rake db:test:prepare"
+alias rdbm="rake db:migrate"
+alias rdbp="rake db:test:prepare" # no longer needed in Rails 4.1
 
 # projects
 
