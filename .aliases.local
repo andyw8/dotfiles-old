@@ -38,12 +38,12 @@ alias gl='git log --oneline --graph --all --decorate'
 alias grom='git rebase origin/master'
 
 # rails
+alias rk="rake"
 alias rdtp="rake db:test:prepare"
 alias rdbm="rake db:migrate"
 alias rdbp="rake db:test:prepare" # no longer needed in Rails 4.1
 
 # projects
-
 alias tr='~/code/github/techradar'
 
 alias latest-ruby="brew update && brew upgrade rbenv ruby-build"
